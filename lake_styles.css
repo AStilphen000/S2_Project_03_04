@@ -1,0 +1,32 @@
+﻿@charset "utf8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Angelina Stilphen
+   Date:   9.11.18
+   
+   Filename: lake_styles.css
+
+*/
+
+/*Structual Styles*/
+html {
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke;  
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+body>footer {
+    background-color: rgb(203, 222, 240);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 205%;
+}
