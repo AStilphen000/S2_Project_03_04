@@ -1,4 +1,9 @@
 ﻿@charset "utf8";
+/*The @fontface style rule helps in making the font I picked work. I used font family for the combinations of fonts that I wanted. */
+@font-face{
+    font-family: 'Great Vibes', cursive;
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -12,7 +17,7 @@
 
 */
 
-/*Structual Styles*/
+/*I had to use html so the background color of the website would be the color I wanted. I also used body to change the font and color again as well. Body can be implented by both request and response.*/
 html {
     background-color: white;
 }
@@ -28,5 +33,35 @@ body>footer {
 
 h1 {
     font-family: 'Great Vibes', cursive; 
-    font-size: 205%;
+    font-size: 55px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    text-align: center
+}
+
+aside {
+    background-color: lavender;
+    text-align: center;
+}
+
+nav {
+    background-color: lavender;
+}
+
+section#rightcol {
+    background-color: lavender;
+}
+
+blockquote {
+    text-align: center;
+}
+
+
+
+
