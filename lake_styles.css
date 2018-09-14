@@ -1,7 +1,11 @@
 ﻿@charset "utf8";
 /*The @fontface style rule helps in making the font I picked work. I used font family for the combinations of fonts that I wanted. */
 @font-face{
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Tangerine', cursive;
+}
+
+@font-face {
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 /*
@@ -17,9 +21,9 @@
 
 */
 
-/*I had to use html so the background color of the website would be the color I wanted. I also used body to change the font and color again as well. Body can be implented by both request and response.*/
+/*I used html which is the fundamental technology for defining the structure of a webpage. I used it in the way of getting the backgroud color to white. Next we have the body which is implemented by both request and response. What I put inside the body is background color and the font family I wanted. After the body element I made a body footer element so the footer or bottom of the webpage were all the information of the website is. I also out in the footer a background color to a light blue color. I then used the h1 element to change the welcome that you see when you open the page. I wanted the font family to be and how big I wanted the welcome to be. I used a to abrevihate the aside element, this just changed the color and the underlining of the hyper text links.*/
 html {
-    background-color: white;
+    background-color: lightgrey;
 }
 
 body {
@@ -31,9 +35,24 @@ body>footer {
     background-color: rgb(203, 222, 240);
 }
 
+section h1 {
+    font-weight: 100; 
+}
+
+section#leftcol h1{
+    margin: 0px;
+    padding: 5px;
+}
+
+section#leftcol img {
+    margin-bottom: 31px;
+    margin-left: 31px;
+}
+
 h1 {
-    font-family: 'Great Vibes', cursive; 
-    font-size: 55px;
+    font-family: 'Tangerine', cursive; 
+    font-size: 55px; 
+    text-align: center;
 }
 
 a {
@@ -41,27 +60,52 @@ a {
     text-decoration: none;
 }
 
+/*In the paragraph I changed the way the text aligned with the rest of the page. In aside again I wanted the text to be in a box almost or make it seem like that so I changed the color to lavender and then aligned that text as well to the page. In the nav is where all the links are on the webpage and I changed the background color to lavender as well. In the right column section I madde an id so that the right column only is affected. The blockquote in this webpage is a review and I connected it with the right column. */
+
+
+
 p {
-    text-align: center
+    text-align: center;
 }
 
 aside {
     background-color: lavender;
-    text-align: center;
+    text-align: center; 
 }
 
-nav {
-    background-color: lavender;
+aside h1{
+    font-size: 2em;
+    margin: 10px 25px 10px 25px;
+}
+
+aside h2 {
+    font-size: 2em;
+    margin: 10px 25px 10px 25px;
+}
+
+nav ul {
+    background-color: rgba(230, 230, 250, 0.548); 
+    color: black;
+}
+
+nav a:hover,
+nav a:active {
+    color: azure;
 }
 
 section#rightcol {
     background-color: lavender;
+    margin-top: 3em;
+} 
+
+h2 {
+  font-family: 'Tangerine', cursive; 
 }
 
 blockquote {
-    text-align: center;
+    text-align: center; 
+    background-color: lavender;
+    padding: 10px 25px 10px 25px;
 }
-
-
 
 
